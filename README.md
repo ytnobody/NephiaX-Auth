@@ -12,13 +12,15 @@ NephiaX::Auth is web application based Nephia.
 
 # AUTHOR
 
-clever guy
+ytnobody
 
 # SEE ALSO
 
 Nephia
 
 Nephia::View::TT
+
+Nephia::Plugin::Auth::Twitter
 
 # LICENSE
 
