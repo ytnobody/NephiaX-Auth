@@ -3,8 +3,8 @@ use strict;
 use warnings;
 use Nephia plugins => [
     'Auth::Twitter' => {
-        consumer_key    => 'P1HMeXFG1z717DTBLnIEhw' ,
-        consumer_secret => 'hH9WI7sklqbZ4RN5aT2x54c7CC71D8n19Fb92ZZSs' ,
+        consumer_key    => 'your consumer key',
+        consumer_secret => 'your consumer secret',
         callback_url    => 'http://127.0.0.1:5000/auth' ,
     },
 ];
@@ -65,13 +65,15 @@ NephiaX::Auth is web application based Nephia.
 
 =head1 AUTHOR
 
-clever guy
+ytnobody
 
 =head1 SEE ALSO
 
 Nephia
 
 Nephia::View::TT
+
+Nephia::Plugin::Auth::Twitter
 
 =head1 LICENSE
 
